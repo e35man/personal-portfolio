@@ -1,0 +1,40 @@
+body{
+    background-image: url(homepage-bg.jpg);
+    background-size: cover;
+}
+
+    nav 
+    {
+      display: flex;
+      background-color: #f2f2f2;
+      padding: 10px;
+      justify-content: center;
+}
+
+ul 
+    {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+}
+
+li 
+    {
+      margin-right: 15px;
+}
+
+a 
+    {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+      border-radius: 10px;
+      font-size: 15px;
+}
+
+a:hover 
+    {
+      background-color: #333;
+      color: #fff;
+}

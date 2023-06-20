@@ -1,0 +1,66 @@
+body{
+    background-image: url(homepage-bg.jpg);
+    background-size: cover;
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+h3{
+	display: flex;
+	justify-content: center;
+	text-decoration-line: underline;
+}
+
+ul{
+	display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.mytable {
+  width: 70%;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+}
+
+.mytable th, td{
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+tr{
+	height: 40px;
+}
+
+.mytable tr:hover {
+    background-color: #111111;
+}
+
+.strgcol{
+	background-color: #1D5573;
+	color: #FFFFFF;
+	width: 100px;
+}
+
+.weakcol{
+	background-color: #731D34;
+	color: #FFFFFF;
+}
+
+.oppcol{
+	background-color: #6C3A0B;
+		color: #FFFFFF;
+}
+
+button{
+	width: 5%;
+	height: 5%;
+}
