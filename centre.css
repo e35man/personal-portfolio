@@ -1,6 +1,6 @@
 body{
     background-image: url(homepage-bg.jpg);
-    background-repeat: no-repeat;
+    background-cover: cover;
 }
 
     nav 
